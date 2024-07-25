@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosa Venteto - Autora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+        }
+        .bio, .book, .contact {
+            background-color: white;
+            padding: 1em;
+            margin-bottom: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1em;
+            margin-top: 1em;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #6a1b9a;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rosa Venteto</h1>
+        <p>Autora de contos e poemas</p>
+    </header>
+    <nav>
+        <a href="#bio">Biografia</a>
+        <a href="#book">Livro</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="bio" class="bio">
+        <h2>Biografia</h2>
+        <p>Rosa Venteto é uma talentosa autora de contos e poemas, conhecida pela sua habilidade em capturar a essência das emoções humanas através da escrita. Com uma paixão pela literatura desde jovem, Rosa tem dedicado a sua vida a criar obras que inspiram e tocam os corações dos leitores.</p>
+        <div class="social-links">
+            <a href="https://www.youtube.com/@rosaventeto" target="_blank">YouTube</a>
+            <a href="https://www.instagram.com/rosaventeto" target="_blank">Instagram</a>
+            <a href="https://www.wattpad.com/story/340978321-contos-apenas" target="_blank">Wattpad</a>
+        </div>
+    </section>
+    <section id="book" class="book">
+        <h2>Livro Publicado</h2>
+        <p><strong>Título:</strong> HAICAIS: quatro estações (Portuguese Edition)</p>
+        <p><strong>Editora:</strong> Amazon</p>
+        <p><strong>Descrição:</strong> Uma coleção de haicais que exploram a beleza e a transitoriedade das quatro estações. Este livro é uma celebração poética da natureza e das emoções que ela evoca.</p>
+        <p><a href="https://amzn.to/3NC3CaL" target="_blank">Adquira o e-book</a></p>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <p>Para entrar em contacto com Rosa Venteto, envie um e-mail para: <a href="mailto:rosa.venteto@example.com">rosa.venteto@example.com</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Rosa Venteto. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
